@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  flex-flow: column nowrap;
+  height: 100vh;
+  background: #000428; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #004e92,
+    #000428
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #004e92,
+    #000428
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+#legend {
+  color: white;
+  margin: 20px auto 0px;
+  text-align: center;
+}
+#app {
+  margin: 20px auto 0px;
+  padding: 30px;
+  width: fit-content;
+  height: fit-content;
+  background-color: rgb(143, 148, 148);
+  border-radius: 10px;
+}
+#stats {
+  display: flex;
+  flex-flow: row nowrap;
+}
+#score-container {
+  padding-bottom: 10px;
+  font-size: 1.2rem;
+  width: fit-content;
+}
+#max-score-container {
+  padding-bottom: 10px;
+  font-size: 1.2rem;
+  margin-left: auto;
+  width: fit-content;
+}
+
+canvas {
+  border: 2px solid #6b6969;
+  background-color: #cdf386;
+  border-radius: 10px;
+}
+#options {
+  display: flex;
+  flex-flow: row nowrap;
+  height: 80px;
+}
+#play {
+  width: fit-content;
+  margin: auto;
+}
+#play i {
+  font-size: 2rem;
+}
+#play i:hover {
+  cursor: pointer;
+  color: rgb(22, 216, 223);
+}
+#credits {
+  color: white;
+  margin: 20px auto 0px;
+  text-align: center;
+}
